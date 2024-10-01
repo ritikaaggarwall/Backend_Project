@@ -2,9 +2,10 @@
   "name": "chaibackendproject",
   "version": "1.0.0",
   "description": "video series",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,9 +13,5 @@
     "chai"
   ],
   "author": "Ritika",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.7",
-    "prettier": "^3.3.3"
-  }
+  "license": "ISC"
 }
