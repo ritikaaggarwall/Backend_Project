@@ -10,3 +10,6 @@ const storage = multer.diskStorage({
 })
 
 export const upload = multer({  storage })
+
+//cb is callback
+//null bcz no error handler here
