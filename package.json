@@ -13,5 +13,8 @@
     "chai"
   ],
   "author": "Ritika",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chaibackendproject": "file:"
+  }
 }
