@@ -17,9 +17,9 @@ app.use(cookieParser())
 
 
 //routes import
-import userRouter from './routes/user.routes.js'
+import router from './routes/user.routes.js'
 
 //routes declaration
-app.use("/api/v1/users", userRouter) //prefix is this path
+app.use("/api/v1/users", router) //prefix is this path
 
 export {app}
